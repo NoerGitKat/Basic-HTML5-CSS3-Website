@@ -1,7 +1,7 @@
 html
 	head
 		title Home - Welcome
-		link(rel='favicon' href='../img/apple.ico')
+		link(rel='shortcut icon' href='../img/favicon.ico' type='image/x-con')
 		meta(charset='utf-8')
 		meta(name='viewport' content='width-device-width')
 		meta(name='keywords' content='web design')
@@ -9,3 +9,43 @@ html
 	body
 		header
 			.container
+				#branding
+					h1 So Wow Design
+				nav
+					li
+						a Home
+					li
+						a About
+					li
+						a Services
+
+		main
+			section#showcase
+				.container
+					h1 Amazing, Wow-Worthy Web Design&copy;
+					p This web design is so amazing, it will make your eyes pop out of your skull. Other people will look at it and will be so jealous of you. Not only that, your customer base will increase by at least 200% from the moment you launch the site. Guaranteed.
+
+			section#newsletter
+				.container
+					h1 Subscribe to this awesome newsletter.
+					form
+						input(type='email' name='email' maxlength='50' placeholder='Enter email...' required)
+						input(type='submit' name='submit' value='Subscribe!')
+
+			section#coreskills
+				.container
+					.box
+						img(src="../img/logo_html.png")
+						h3 HTML5 Markup
+						p This is how HTML5 should be done. When you see it, you'll shit brix. That's how freakishly good it is. 
+					.box
+						img(src="../img/logo_css.png")
+						h3 CSS3 Mania
+						p With the latest technologies we can create styling that will make your head turn around your neck. This is the way 3D animations should always be working! Neck massages not included. 
+					.box
+						img(src="../img/logo_brush.png")
+						h3 Godly Web Design
+						p You'd think the Creator Himself quit ruling the world, just to provide you with the best the Internet has to offer. All in a days work, no rest days needed. 
+
+			footer
+				h4 2017 &copy; So Wow Inc. All Rights Reserved.
