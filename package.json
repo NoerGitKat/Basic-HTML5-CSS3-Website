@@ -1,0 +1,9 @@
+{
+  "name": "Basic-HTML5-&-CSS3-Site",
+  "version": "1.0.0",
+  "author": "NoerGitKat",
+  "dependencies": {
+    "express": "^4.15.3",
+    "pug": "^2.0.0-rc.2"
+  }
+}
