@@ -20,6 +20,14 @@ body {
 	cursor: pointer;
 }
 
+.dark {
+	border: 5px solid #e8491d;
+	padding: 15px;
+	background: #35424a;
+	color: #ffffff;
+	margin: 10px 0;
+}
+
 /* HEADER */
 header {
 	background-color: #35424a;
@@ -135,4 +143,15 @@ footer h4 {
 	padding: 20px;
 	margin: 20px auto 0;
 	text-align: center;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 768px) {
+	header nav, header nav li, #newsletter h1, #newsletter form, #boxes .box,
+	article, aside#sidebar {
+		float: none;
+		text-align: center;
+		width: 100%;
+	}
+
 }

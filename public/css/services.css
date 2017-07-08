@@ -1,0 +1,56 @@
+/* FORM */
+.dark {
+	display: inline-block;
+	width: 30%;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+.button {
+	background:  #e8491b;
+	border: 0;
+	padding: 0 20px;
+	cursor: pointer;
+}
+
+input, textarea {
+	margin-left: 10px;
+	width: 95%;
+	padding: 5px;
+}
+
+h4 {
+	margin: 5px 0;
+	padding: 0;
+}
+
+/* MAIN */
+.leftside {
+	float: left;
+}
+
+#services {
+	text-align: center;
+	margin-top: 0;
+	margin-left: 150px;
+}
+
+main h1 {
+	margin-left: 420px;
+	padding: 0;
+	display: inline-block;
+}
+
+main li {
+	list-style-type: none;
+	padding: 20px;
+	border: 1px solid #cccccc;
+	margin-bottom: 5px;
+	background-color: #e6e6e6;
+}
+
+
+/* FOOTER */
+footer {
+	clear:both;
+}

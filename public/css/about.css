@@ -1,0 +1,19 @@
+/* SIDEBAR */
+#sidebar {
+	text-align: center;
+	float: right;
+	margin-top: 10px;
+	width: 30%;
+}
+
+#sidebar h3 {
+	margin: 0;
+	padding: 0;
+}
+
+/* MAIN ARTICLE */
+article {
+	float: left;
+	width: 65%;
+}
+

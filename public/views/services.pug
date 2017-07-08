@@ -7,6 +7,7 @@ html
 		meta(name='keywords' content='web design')
 		meta(name='author' content='NoerGitKat')
 		link(rel='stylesheet' href='../css/style.css')
+		link(rel="stylesheet" href="../css/services.css")
 	body
 		header
 			.container
@@ -25,7 +26,33 @@ html
 							a(href='/services') Services
 
 		main
-		
+			.leftside
+				h1 Services
+				ul#services
+					li 
+						h3 Web Design
+						p Top of the line and ages like wine. Our Web Design makes people lose their mind!
+						p Price: 10 Donuts for 1 Wow-Worthy Web Design&copy;
+					li
+						h3 On-Demand Service
+						p Like a genie in a bottle, we are just one rub away.
+						p Price: 1 magic mantra
+					li
+						h3 Monthly Maintenance
+						p If it ain't broken, we'll cause something that is. And then we fix it. For a small fee. 
+						p Price: Your soul. 
+			.dark
+				form(method="GET" action="/")
+					h2 Send us a message!
+					h4 Name:
+					input(type="text" name="name" maxlength="40" placeholder="Your name..." required)
+					h4 Email:
+					input(type="email" name="email" maxlength="40" placeholder="Your email..." required)
+					h4 Message:
+					textarea(name="message" maxlength="300" placeholder="Your nice message..." required)
+					br
+					br
+					input.button(type="submit" name="submit" value="SUBMIT")
 
-			footer
-				h4 2017 &copy; So Wow Inc. All Rights Reserved.
+		footer
+			h4 2017 &copy; So Wow Inc. All Rights Reserved.
