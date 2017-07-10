@@ -17,3 +17,14 @@ article {
 	width: 65%;
 }
 
+/* MEDIA QUERIES */
+@media (max-width: 768px) {
+	article {
+		display: block;
+	}
+
+	#sidebar {
+		display: block;
+		margin: 0 auto;
+	}
+}

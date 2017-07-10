@@ -147,8 +147,7 @@ footer h4 {
 
 /* MEDIA QUERIES */
 @media (max-width: 768px) {
-	header, header nav, header nav li, #newsletter h1, #newsletter form, #boxes .box,
-	article, aside#sidebar {
+	header, header nav, header nav li, #newsletter h1, #newsletter form, #boxes .box{
 		float: none;
 		text-align: center;
 		width: 100%;
@@ -156,6 +155,14 @@ footer h4 {
 
 	header ul {
 		padding: 0;
+	}
+
+	.button {
+		margin-top: 20px;
+	}
+
+	.email {
+		width: 100%;
 	}
 
 	header li {
