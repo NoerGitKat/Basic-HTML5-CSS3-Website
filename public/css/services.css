@@ -54,3 +54,38 @@ main li {
 footer {
 	clear:both;
 }
+
+/* MEDIA QUERIES */
+@media (max-width: 768px) {
+	main {
+		text-align: center;
+		display: inline;
+		margin: 0 auto;
+		padding: 0;
+		float: none;
+	}
+
+	h1, .leftside, #services {
+		margin: 0 auto;
+		padding: 10px;
+		float: none;
+		width: 80%;
+	}
+
+	.leftside h1 {
+		display: inline-block;
+		margin: 0 auto;
+
+	}
+
+	.dark {
+		text-align: center;
+		margin: 0 20px;
+		width: 80%;
+	}
+
+	.dark form {
+		margin: 0 auto;
+		padding: 0;
+	}
+}
